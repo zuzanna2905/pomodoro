@@ -1,0 +1,61 @@
+body {
+    margin: 0;
+}
+
+#container{
+    background-color: darkgoldenrod;
+    text-align: center;
+    height: 80vh;
+    padding: 10vh;
+}
+
+#timer {
+    margin: auto;
+    border: 2px solid white;
+    padding: 10px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
+    position: relative;
+}
+
+#time{
+    position: absolute;
+    left: 0;
+    top: 45%;
+    width: 100%;
+    text-align: center;
+    font-size: 18px;
+}
+
+span {
+    font-size: 30px;
+    color: white;
+}
+
+button {
+    color: white;
+    border-radius: 15px;
+    padding: 10px 15px;
+    font-weight: bold;
+    margin: 10px;
+}
+
+#buttons {
+    margin-top: 20px;
+}
+
+#start {
+    background-color: rgb(77, 100, 36);
+    border-color: olivedrab;
+}
+
+#break {
+    background-color: rgb(53, 110, 110);
+    border-color: rgb(179, 181, 182);
+}
+
+#stop {
+    background-color: rgb(156, 9, 9);
+    border-color: tomato;
+}
